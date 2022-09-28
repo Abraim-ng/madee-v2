@@ -96,6 +96,7 @@ nav {
 
 @media screen and (max-width: 1091px) {
     .hero-section {
+        margin-top: 0;
         display: flex;
         flex-wrap: wrap;
     }
@@ -109,5 +110,22 @@ nav {
         justify-content: space-between;
         align-items: center;
         height: 100px;
+    }
+    nav {
+        padding-left: 30px;
+    }
+  
+    .decription-hero h1{
+        font-family: 'Manrope', sans-serif;
+        font-size: 28px;
+        font-weight: 800;
+    }
+    .hero-section {
+        margin-top: 0;
+        margin-left: 30px;
+        margin-right: 50px;
+    }
+    .logo-top {
+        width: 100px;
     }
 }
