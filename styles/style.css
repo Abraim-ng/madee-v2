@@ -2,41 +2,86 @@
     margin: 0;
     padding: 0;
 }
-header{
-    position: relative;
+
+
+.services a {
+    text-decoration: none;
+    font-family: Epilogue;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
 }
-nav{
+.services button{
+    font-family: Epilogue;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #009688;
+    border-radius: 5px; 
+    padding: 19px 39px 19px 39px;
+    border: none;
+    color: white;
+}
+nav {
+    padding-left: 100px;
+    padding-right: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
-    top: 20px;
-    left: 100px;
-    right: 100px;
+    height: 100px;
 }
-.fa-bars {
-    display: none;
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+/* Hero-section */
+
+.decription-hero {
+    margin-top: 50px;
+}
+.decription-hero h1{
+    font-family: 'Manrope', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
+.decription-hero p{
+    font-family: Epilogue;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4F4F4F;
+    margin-bottom: 20px;
+}
+.decription-hero button {
+    font-size: 14px;
+    background: #009688;
+    border-radius: 5px;
+    border: none;
+    padding: 19px 39px 19px 39px;
+    color: white;
+}
+.hero-section {
+    margin-left: 100px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
-
-
-@media (max-width: 520px) {
-    nav{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: absolute;
-        top: 10px;
-        left: 50px;
-        right: 50px;
-    }
-    .fa-bars {
-        display: block;
-        font-size: 20px;
-    }   
-    .serve a{
-        display: none;
-    } 
-
-}   
+.img-hero img {
+   width: 700px;
+} 
