@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
-
+body {
+    /* height: 8000px; */
+}
 .services a {
     text-decoration: none;
     font-family: Epilogue;
@@ -14,7 +15,7 @@
     text-align: center;
     color: black;
 }
-.services button{
+button{
     font-family: Epilogue;
     font-size: 14px;
     font-weight: 700;
@@ -26,6 +27,7 @@
     padding: 19px 39px 19px 39px;
     border: none;
     color: white;
+    cursor: pointer;
 }
 nav {
     padding-left: 100px;
@@ -42,7 +44,6 @@ nav {
     align-items: center;
 }
 /* Hero-section */
-
 .decription-hero {
     margin-top: 80px;
     padding-right: 10px;
@@ -57,7 +58,6 @@ nav {
     text-align: left;
     margin-bottom: 20px;
 }
-
 .decription-hero p{
     font-family: Epilogue;
     font-size: 14px;
@@ -84,13 +84,353 @@ nav {
     flex-direction: row;
     justify-content: space-between;
 }
-
 .img-hero img {
    width: 100%;
 } 
+/* Organisation Def */
+article {
+    margin-top: 100px;
+}
+.container-img-text{
+    position: relative;
+}
 .container-img-text img{
     width: 100%;
 }
+.left-side {
+    position: absolute;
+    top: 158px;
+    left: 150px;
+}
+.left-side h1{
+    font-family: Manrope;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    width: 40%;
+}
+.right-side p {
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4F4F4F;
+}
+.right-side {
+    position: absolute;
+    top: 124px;
+    right: 144px;
+    left: 773px;
+}
+/* program org */
+.program {
+    display: flex;
+    margin-left: 100px;
+    /* margin-right: 50px; */
+}
+.program-desc {
+    width: 40%;
+}
+.program-desc h1 {
+    margin-bottom: 20px;
+    font-family: Manrope;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.program-desc p {
+    color: #4F4F4F;
+    margin-bottom: 20px;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.program-img img{
+    margin-left: 100px;
+}
+/* LATEST PROJECTS */
+.latets-project-title img {
+    width: 50%;
+    margin-left: 110px;
+}
+.latets-project-title {
+    display: flex;
+    flex-direction: column;
+    padding-right: 400px;
+    padding-left: 400px;
+}
+.latets-project-title h1{
+    font-family: Manrope;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 92px;
+    letter-spacing: -2px;
+    text-align: center;
+    color: #828282;
+}
+.latets-project-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+.layout-projects {
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.latets-project-desc h1 {
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -1px;
+    text-align: left;
+    color: #009688;
+}
+.latets-project-desc p {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: justified;
+    color: #828282;
+    margin-bottom: 10px;
+}
+.latets-project-desc img {
+    margin: auto;
+    margin-bottom: 10px;
+}
+/* Evenement  */
+.event-desc h1 {
+    font-family: Manrope;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: -1px;
+    text-align: left;
+    color: white;
+}
+.container {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    background-color: #8082A5;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 5px;
+}
+.event-img {
+    margin: 50px;
+    margin-left: 70px;
+}
+.event-desc {
+    margin: 80px;
+}
+.event-desc p {
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.64);
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+/* Follow us */
+.follow-container {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.text-image {
+    max-width: 40%;
+}
+.text-image h1 {
+    font-family: Manrope;
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.text-image p {
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #35353d;
+    margin-bottom: 40px;
+}
+.text-image img {
+    max-width: 350px;
+
+}
+.Socials {
+    border: 1px solid #009688;
+    padding: 80px 50px 80px 50px;
+}
+.Socials h1{
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #009688;
+}
+.Socials p {
+    font-family: Epilogue;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.square-follow {
+    display: flex;
+    flex-direction: column;
+}
+/* footer  */
+footer {
+    margin-top: 100px;
+}
+.slogan-footer {
+    padding: 100px;
+    background: #1B1C31;
+}
+.slogan-footer button {
+    margin-top: 30px;
+    margin-left: 40%;
+}
+.slogan-footer h1{
+    font-family: Manrope;
+    font-size: 53px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: white;
+}
+.footer-real {
+    background: #1B1C31;
+    padding: 30px 100px 100px 100px;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.footer-container p{
+    width: 50%;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+.ser-list h1 {
+    font-family: Manrope;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.ser-list h1 a{
+    text-decoration: none;
+    font-family: Manrope;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+.ser-list a {
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+.ser-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* MEDIA QUERIES */
 
@@ -98,16 +438,16 @@ nav {
     .hero-section {
         margin-top: 0;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
     }
     .img-hero img {
         width: 150%;
-        margin-left: -80px;
+        margin-left: -50px;
         margin-top: 40px;
     } 
     nav a, button{
         display: none;
-        justify-content: space-between;
+        justify-content: space-between; 
         align-items: center;
         height: 100px;
     }
@@ -116,9 +456,20 @@ nav {
     }
   
     .decription-hero h1{
-        font-family: 'Manrope', sans-serif;
-        font-size: 28px;
+        font-family: Manrope;
+        font-size: 24px;
         font-weight: 800;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .decription-hero p{
+        font-family: Manrope;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
     }
     .hero-section {
         margin-top: 0;
@@ -127,5 +478,28 @@ nav {
     }
     .logo-top {
         width: 100px;
+    }
+    /* <!-- Organisation deef --> */
+    .container-img-text img{
+        display: none;
+    }
+    .left-side {
+        position: static;
+    }
+    .left-side h1{
+        font-family: Manrope;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 28px;
+        width: auto;
+        margin-left: 30px;
+    }
+    .right-side {
+        position: static;
+    }
+    .right-side p {
+        margin-top: 20px;
+       width: auto;
+       margin-left: 30px;
     }
 }
